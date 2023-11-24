@@ -8,8 +8,24 @@
 
 <body>
 	<!-- the entire body must be written by student -->
-    <script type="text/javascript" src="./script.js">
-</script>
+	<button id="openModal" onClick="onOpenModal()">Open Modal</button>
+	<div id="myModal" class=modal>
+		<div class="modal-content">
+			<div class="modal-header">
+				<div class="header-container">
+				<h2>Modal Header</h2>
+				</div>
+				<div style="text-align:right;padding-right:10px;">
+				<button onClick="onCloseModal()" class="close-modal" style="height:30px;width:40px;background-color:red;color:white;">x</button>
+				</div>
+				
+			</div>
+			<div class="modal-body">
+				<p>Modal Body</p>
+			</div>
+	</div>
+  <script type="text/javascript" src="./script.js"></script> 
+		
 
 </body>
 
